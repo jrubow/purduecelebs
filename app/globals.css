@@ -1,0 +1,15 @@
+* {
+  padding:0px;
+  margin:0px;
+}
+
+h1 {
+  font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
+  color:white;
+}
+
+p {
+    color:white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,47 @@
+.buttonMain {
+    position:relative;
+    cursor:pointer;
+    width:300px;
+    height:100px;
+    transition: transform 0.5s ease-in-out;
+}
+
+/*.buttonMain:hover {
+    transform: scale(1.1);
+}*/
+
+.buttonMain:hover + .buttonBackground {
+    background-color: red !important; /* Change this to the desired background color */
+}
+
+.buttonBackground {
+    position:absolute;
+    top:15px;
+    width:300px;
+    height:100px; 
+    transform: skewX(-15deg) scaleY(cos(-15deg));
+    transition: transform .3s ease-out;
+
+}
+
+.buttonBackground:hover {
+    transform:translateX(0,-15px);
+}
+
+.buttonContainer {
+    position: absolute;
+    left:30px;
+    background-color: black;
+    width:300px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: skewX(-15deg) scaleY(cos(-15deg));
+    transition: transform .3s ease-out;
+
+}
+
+.buttonContainer:hover {
+    transform:translateX(0,-15px);
+}
