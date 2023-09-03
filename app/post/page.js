@@ -5,8 +5,10 @@ function page() {
   return (
     <div className={styles.main}>
       <div className={styles.header}>
-        <h2>Post Sighting!</h2>
+        <div className={styles.headerBackground}></div>
+        <p className={styles.headerText}>Post Sighting!</p>
       </div>
+      
     </div>
   )
 }

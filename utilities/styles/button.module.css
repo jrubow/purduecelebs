@@ -45,3 +45,9 @@
 .buttonContainer:hover {
     transform:translateX(0,-15px);
 }
+
+.buttonText {
+    position: absolute;
+    left:90px;
+    top:30px;
+}

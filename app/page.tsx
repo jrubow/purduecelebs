@@ -6,7 +6,7 @@ import Celeb from "../utilities/Celeb.js"
 function page() {
   return (
     <div className={styles.mainpage}>
-      <Button text="Post Sighting!" target="" bColor="#B5E61D"/>
+      <Button text="Post Sighting!" target="/post" bColor="#B5E61D"/>
       <div className={styles.celebs}>
         <Celeb name="GymBro" sightings={5} target=""/>
         <Celeb name="SaxBro" sightings={1} target=""/>
