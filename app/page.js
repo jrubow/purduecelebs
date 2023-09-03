@@ -6,6 +6,7 @@ import axios from "axios"
 
 async function loadData() {
   try {
+    console.log("hello")
     const response = await axios.get(process.env.API_SERVER + "/api/celebs");
     console.log(response.data);
     return response.data.celebs;

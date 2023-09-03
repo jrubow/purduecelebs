@@ -5,6 +5,20 @@
     margin-top: 60px;
     margin-right:10px;
     margin-left:10px;
+    cursor:pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.celebMain:hover {
+    -webkit-transition: all 0.7s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    transform:translateY(-15px);
 }
 
 .sightings, .name {
