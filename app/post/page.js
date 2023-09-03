@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react'
 import styles from "./page.module.css"
 
@@ -9,6 +11,10 @@ function page() {
         <p className={styles.headerText}>Post Sighting!</p>
       </div>
       
+      <div className="form"> 
+        <input></input>
+
+      </div>
     </div>
   )
 }
